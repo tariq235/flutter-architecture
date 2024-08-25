@@ -7,10 +7,15 @@ class HeaderWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Container(
+      padding: const EdgeInsets.all(16),
+      color: Colors.blueAccent,
       child: Text(
         'Welcome, $username!',
-        style: const TextStyle(fontSize: 24),
+        style: const TextStyle(
+          fontSize: 24,
+          color: Colors.white,
+        ),
       ),
     );
   }

@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:sampleflutter/service/user_service.dart';
+import 'package:sampleflutter/features/dashboard/services/user_service.dart';
 
 final userControllerProvider =
     StateNotifierProvider.autoDispose<UserController, AsyncValue<String>>(

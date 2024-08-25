@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:sampleflutter/service/login_service.dart';
+import 'package:sampleflutter/features/auth/services/login_service.dart';
 
 class LoginController extends StateNotifier<AsyncValue<bool>> {
   final LoginService loginService;

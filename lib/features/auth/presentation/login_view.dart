@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:sampleflutter/controller/login_controller.dart';
-import 'package:sampleflutter/view/dashboard_view.dart';
+import 'package:sampleflutter/features/auth/controllers/login_controller.dart';
+import 'package:sampleflutter/features/dashboard/presentation/dashboard_view.dart';
 
 class LoginView extends ConsumerWidget {
   final TextEditingController _usernameController = TextEditingController();
